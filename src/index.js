@@ -1,12 +1,10 @@
-const perkakas = {
-  baju: 3,
-  celana: 4,
-};
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App'
 
-const newPerkakas = {
-    ...perkakas,
-    baju: 4,
-    sepatu: 8,
-    topi: 2,
-}
-console.log(perkakas);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
